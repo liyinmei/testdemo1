@@ -21,5 +21,6 @@ public class Search extends Base {
         click(getElement("百度页", "百度一下"));
         //拿地址的时候页面可能还没调整，需要时间
         AssertionUtil.assertTrue(urlPresenceContent("baidu"));
+
     }
 }
